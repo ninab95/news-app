@@ -1,0 +1,50 @@
+.header-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 20px;
+  color: #7e685a;
+  cursor: pointer;
+}
+
+.icon-bar {
+  display: flex;
+}
+
+.icon-bar li {
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 17px;
+  color: #7e685a;
+  cursor: pointer;
+}
+
+.title {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(46, 17, 20, 0.17);
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 100px;
+  text-align: center;
+  line-height: 10px;
+  color: rgba(46, 17, 20, 0.9);
+}
+
+p {
+  font-size: 35px;
+  color: rgba(46, 17, 20, 0.75);
+  font-style: oblique;
+}
