@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HeaderCss.css";
 
 function Header() {
+  const [isMenuOpened, setMenuOpened] = useState(false);
   return (
     <div className="header">
       <div className="header-bar">
-        <div className="nav-bar">
+        <div onClick={() => setMenuOpened(true)} className="bars">
+          <div className="line"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+        <div
+          onClick={() => setMenuOpened(false)}
+          className={`nav-bar ${isMenuOpened && "opened"}`}
+        >
           <li>Home</li>
           <li>Tag</li>
           <li>Author</li>
