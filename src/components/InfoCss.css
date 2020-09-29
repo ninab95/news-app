@@ -9,16 +9,15 @@
 
 .info h1 {
   font-size: 40px;
-  color: rgba(46, 17, 20, 0.9);
 }
 
 .info p {
   font-size: 15px;
-  color: rgba(46, 17, 20, 0.75);
+  color: #909499;
 }
 
 .info h3 {
   font-size: 20px;
-  font-weight: 500;
-  color: #7e685a;
+  font-weight: 400;
+  color: #222426;
 }

@@ -1,0 +1,75 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+}
+
+.topic span {
+  padding-right: 15px;
+  color: #909499;
+  font-weight: 500;
+}
+
+.topic button {
+  background-color: #e05431;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+}
+
+.share span {
+  padding-right: 15px;
+  color: #909499;
+  font-weight: 500;
+}
+
+.twitter,
+.fb,
+.linkedin,
+.envelope {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.twitter {
+  background-color: #3ea9dd;
+}
+
+.fb {
+  background-color: #3c5a98;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.envelope {
+  background-color: #2997ee;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-linkedin-in,
+.fa-envelope {
+  color: white;
+}

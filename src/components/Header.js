@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./HeaderCss.css";
 
-function Header() {
+function Header(props) {
   const [isMenuOpened, setMenuOpened] = useState(false);
   return (
     <div className="header">
@@ -35,10 +35,12 @@ function Header() {
           </li>
         </div>
       </div>
-      <div className="title">
-        <h1>Attila</h1>
-        <p>Ghost Theme Demo</p>
-      </div>
+      {props.isHomePage && (
+        <div className="title">
+          <h1>Attila</h1>
+          <p>Ghost Theme Demo</p>
+        </div>
+      )}
     </div>
   );
 }
