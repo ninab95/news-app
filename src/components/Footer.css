@@ -1,0 +1,38 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 144px;
+  margin: 0 25px 0 25px;
+}
+
+.footer-wrapper p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #909499;
+}
+
+.footer-wrapper span {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-wrapper {
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .footer-wrapper .published {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-wrapper {
+    height: auto;
+  }
+
+  .footer-wrapper p {
+    font-size: 12px;
+  }
+}

@@ -1,6 +1,7 @@
 .welcome-image {
   background-image: url("../img/welcome-to-ghost.jpg");
   background-position: center;
+  background-size: cover;
   height: 500px;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .welcome-header h1 {
-  font-size: 5vw;
+  font-size: 60px;
   font-weight: 500;
   color: white;
 }
@@ -73,4 +74,60 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .welcome-header {
+    padding-left: 50px;
+  }
+
+  .welcome-header h4 {
+    font-size: 22px;
+  }
+
+  .welcome-header h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .profile-info {
+    padding-left: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .welcome-header {
+    padding-left: 30px;
+  }
+
+  .welcome-header h4 {
+    font-size: 17px;
+  }
+
+  .welcome-header h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .profile-info {
+    display: grid;
+    padding-left: 30px;
+  }
+
+  .profile-name {
+    padding-left: 0;
+  }
+
+  .profile-name p {
+    font-size: 14px;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+
+  .about h4 {
+    font-size: 15px;
+  }
 }
