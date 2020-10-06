@@ -1,22 +1,23 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header";
-// import InfoContainer from "./components/InfoContainer";
-import WelcomePage from "./components/WelcomePage";
-import SharePage from "./components/SharePage";
-import WritingPost from "./components/WritingPost";
-import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import BlogPostPage from "./pages/BlogPostPage";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header isHomePage={false} />
-      {/* <InfoContainer /> */}
-      <WelcomePage />
-      <SharePage />
-      <WritingPost />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/post">
+            <BlogPostPage />
+          </Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
