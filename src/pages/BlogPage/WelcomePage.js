@@ -10,7 +10,7 @@ function WelcomePage() {
           <h1>Welcome to Ghost</h1>
         </div>
         <div className="profile-info">
-          <img src={require("../img/ghost.png")} alt="avatar" />
+          <img src={require("../../img/ghost.png")} alt="avatar" />
           <div className="profile-name">
             <h4>Ghost</h4>
             <p>10 Jul 2019 - 1 min read</p>

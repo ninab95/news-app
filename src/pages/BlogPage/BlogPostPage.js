@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
-import WelcomePage from "../components/WelcomePage";
-import SharePage from "../components/SharePage";
-import WritingPost from "../components/WritingPost";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import WelcomePage from "./WelcomePage";
+import SharePage from "./SharePage";
+import WritingPost from "./WritingPost";
+import Footer from "../../components/Footer";
 
 function BlogPostPage() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
-import InfoContainer from "../components/InfoContainer";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import InfoContainer from "./InfoContainer";
+import Footer from "../../components/Footer";
 
 function HomePage() {
   return (
