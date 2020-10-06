@@ -16,7 +16,7 @@ function Header(props) {
           onClick={() => setMenuOpened(false)}
           className={`nav-bar ${isMenuOpened && "opened"}`}
         >
-          <Link to="/">
+          <Link to="/" style={{ textDecoration: "none" }}>
             <li>Home</li>
           </Link>
           <li>Tag</li>

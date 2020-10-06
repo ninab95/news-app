@@ -36,6 +36,10 @@
   cursor: pointer;
 }
 
+.nav-bar li:hover {
+  text-decoration: none;
+}
+
 .icon-bar {
   display: flex;
   list-style-type: none;
